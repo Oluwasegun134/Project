@@ -1,0 +1,49 @@
+:root {
+    --SoftMagenta: hsl(300, 69%, 71%)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { background-image: url(/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg);
+    background-color: var(--SoftMagenta); background-color:rebeccapurple; font-family: 'Poppins',
+        sans-serif, 'Open Sans',
+            sans-serif;}
+
+.container { margin-left: 10%;
+    display: flex;
+    height: 100vh; width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.community h2{ color: white; width: 100%; height: 10vh; text-align: justify; text-align: left; font-size: xx-large; word-spacing: 20px;}
+.community {color:white; padding: 30px ;
+    height: 
+    100vh;
+    width: 29%;
+    padding-top: 12%;
+    justify-content: center;
+    align-content: center;
+    text-align: justify; font-size: 16px; word-spacing: 3px; font-family: 'open sans';
+}
+
+.huddle img {
+    position: absolute;
+    top: 30px;
+    padding-left: 20px;
+}
+.register a{ padding: 12px 50px; background-color: aliceblue;
+    border-radius: 80px; border-width: 200px;
+    border:none ; position: relative; top: 20px;
+position: relative; right: 470px; text-decoration: none; font-size: large;}
+.register a:hover{color: crimson;}
+.icon{justify-content: center; align-self: center; padding-left: 70%; gap: 30px;}
+.icon a{color: white; font-size: 25px; justify-content: center; align-content: center; width: fit-content; }
+.icon a:hover{color: purple;}
+
+@media only screen and (max-width: 650px){.container{flex-direction: column;}}
+    
